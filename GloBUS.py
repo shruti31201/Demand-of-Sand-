@@ -22,10 +22,6 @@ import os
 import ctypes     
 import math
 
-# set current directory
-dir_path = ""
-os.chdir(dir_path)   
-
 # Set general constants
 regions = 26        #26 IMAGE regions
 res_building_types = 4  #4 residential building types: detached, semi-detached, appartments & high-rise 
